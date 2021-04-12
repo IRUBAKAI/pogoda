@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>MY WEATHER</h1>
+    <form>
+        <div class="input-field">
+            <input id="search" type="search" placeholder="Poltava,europe" required>
+        </div>
+    </form>
+</header>
+<nav>
+    <div class="nav-wrapper">
+
+        <div class="today">
+        <a href="#">Today</a>
+        </div>
+
+        <div class="five-day">
+        <a href="#">5-day forecast</a>
+        </div>
+
+    </div>
+</nav>
+
+<section class="firstSection">
+    <div class="container">
+        <div class="row">
+
+            <div class="col m12 s12">
+                <div class="headFirstSection">
+                    <h5>CURRENT WEATHER</h5>
+                    <div id="data"></div>
+                </div>
+            </div>
+
+            <div class="container weatherBlock">
+                <div class="col m4 s12">
+                        <div class="sunny blockFirstSec"></div>
+                </div>
+
+                <div class="col m4 s12">
+                    <div class="degrees blockFirstSec"></div>
+                </div>
+
+                <div class="col m4 s12">
+                    <div class="infoWeather blockFirstSec"></div>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>
